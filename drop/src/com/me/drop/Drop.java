@@ -68,6 +68,11 @@ public class Drop implements ApplicationListener {
 	 */
 	@Override
 	public void dispose() {
+		dropImage.dispose();
+		bucketImage.dispose();
+		dropSound.dispose();
+		rainMusic.dispose();
+		batch.dispose();
 	}
 
 	@Override
