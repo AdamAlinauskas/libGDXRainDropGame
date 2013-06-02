@@ -2,3 +2,6 @@ bin
 obj
 Thumbs.db
 .metadata
+war
+gwt-unitcache
+.gwt-log
